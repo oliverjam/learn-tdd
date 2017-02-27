@@ -5,7 +5,7 @@
   "main": "change.js",
   "scripts": {
     "start": "live-server --port=8000",
-    "test-coverage": "istanbul cover tests.js"
+    "test": "istanbul cover tests.js"
   },
   "repository": {
     "type": "git",
