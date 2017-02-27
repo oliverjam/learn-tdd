@@ -1,0 +1,26 @@
+{
+  "name": "learn-tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "change.js",
+  "scripts": {
+    "start": "live-server --port=8000",
+    "test-coverage": "istanbul cover tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliverjam/learn-tdd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oliverjam/learn-tdd/issues"
+  },
+  "homepage": "https://github.com/oliverjam/learn-tdd#readme",
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "live-server": "^1.2.0",
+    "qunit-tap": "^1.5.1",
+    "qunitjs": "^2.1.1"
+  }
+}
